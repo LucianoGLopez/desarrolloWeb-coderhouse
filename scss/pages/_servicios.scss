@@ -1,0 +1,65 @@
+/* INICIA NUESTROS SERVICIOS */
+#main-servicios{
+    background-color: $secondary;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    h2, h3{
+        text-shadow: $primary 2px 1px 2px;
+    }
+}
+.text__servicios{
+    background-color: $light;
+    color: $primary;
+    margin: 35px 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px $light-gold;
+}
+.cards__asesoramiento, 
+.cards__resolucion, 
+.cards__defensa{
+    @include cards-servicios-mobile;
+}
+/* FIN NUESTROS SERVICIOS */
+/* Inicia servicios tablet */
+@media (min-width: 768px) {
+    #main-servicios{
+        background-color: $secondary;
+    }
+    .text__servicios{
+        margin-top: 50px;
+    }
+    .cards__asesoramiento, .cards__resolucion, .cards__defensa{
+        background-color: #0706128a;
+    }
+    /* Fin servicios tablet */
+}
+@media  (min-width: 992px) {
+    /*Inicia Servicios desktop*/
+    #main-servicios{
+        background-image: url(../img/back-caracteristicas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 3fr 5fr;
+        height: 120vh;
+    }
+    .text__servicios{
+        background-color: rgba(246, 216, 97, 0.075);
+        color:#eadbdb;
+        margin: 190px 0 220px 100px;
+        padding: 20px;
+    }
+    .cards__asesoramiento{
+        @include cards-servicios-desktop(140px);
+    }
+    .cards__resolucion,
+    .cards__defensa{
+        @include cards-servicios-desktop(0);
+    }
+}
+/*Finaliza Servicios desktop*/

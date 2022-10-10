@@ -1,0 +1,110 @@
+/*Inicia generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+    
+
+a{
+    text-decoration:none;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    color:#f7f7f8;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+h1{
+    font-size: 3.8em;
+    font-family: "Philosopher";
+    font-weight: 900;
+}
+h2{
+    font-size: 2.5em;
+    font-family: "Philosopher", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#C1902D;
+    font-weight: 600;
+}
+h3{font-size: 1.8em;}
+h4{font-size: 1.2em;}
+
+p{ 
+    font-size: 16px;
+    font-family: "Mulish";
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Philosopher" ;
+    src: url("../fonts/Philosopher-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Philosopher" ;
+    src: url("../fonts/Philosopher-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "Taviraj" ;
+    src: url("../fonts/Taviraj-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Taviraj" ;
+    src: url("../fonts/Taviraj-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300; 
+}
+
+@font-face {
+    font-family: "Taviraj" ;
+    src: url("../fonts/Taviraj-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight:900; 
+}
+
+@font-face {
+    font-family: "Mulish" ;
+    src: url("../fonts/Mulish-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300; 
+}
+
+@font-face {
+    font-family: "Mulish" ;
+    src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Mulish" ;
+    src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700; 
+}
+
+.wsp__fixed{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.wsp__fixed img{
+    border-radius: 100px;
+}
+/*Finaliza estilos generales*/

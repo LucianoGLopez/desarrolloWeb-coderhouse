@@ -1,0 +1,11 @@
+@for $i from 1 to 10 {
+    .padding-#{$i} {
+        padding: 1rem * $i;
+    }
+}
+
+@each $name, $size in $titles {
+    .title-#{$name} {
+        font-size: $size;
+    }
+}

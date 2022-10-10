@@ -1,0 +1,125 @@
+/* MAIN INDEX MOBILE*/
+.main__index{
+    background-image:url(../img/grey-marble-column-details-on-building4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#faebd7;
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    padding-top: 60px;
+    font-family:"Philosopher", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 0.6rem;
+    h1{
+        font-size: 1.66rem;
+        padding: 60px 5px 0;
+        text-shadow: $primary 5px 1px 4px;
+    }
+    h2{
+        font-family: "Taviraj", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.3rem;
+        text-shadow: $primary 2px 1px 2px;
+    }
+    button{
+        background-color:#0B223A;
+        font-size: 0.9rem;
+        font-weight: 700;
+        border: none;
+        padding: 5px 10px;
+        font-family: "Taviraj", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 8px;
+        margin-bottom: 35px;
+        margin-top: 10px;
+        text-shadow: $primary 2px 1px 2px;
+    }
+}
+/* FIN MAIN INDEX */
+/* INICIA RESUMEN */
+.section-index{
+    background-color: $secondary;
+    font-family: "Mulish",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color:#f7f7f8;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h2{
+        color: $light-gold;
+        text-shadow: $primary 2px 1px 2px;
+    }
+    .nosotros{
+        @include cards-index-mobile (url(../img/sobre-nosotros2.png));
+    }
+    .areas{
+        @include cards-index-mobile (url(../img/back-servicios.png));
+    }
+    .servicios{
+        @include cards-index-mobile (url(../img/back-caracteristicas.png));
+    }
+    button{
+        background-color:#0B223A;
+        color:#f7f7f8;
+        font-size: 16px;
+        font-weight: 300;
+        border: none;
+        padding: 3px 20px;
+        margin-top: 20px;
+        font-family: "Taviraj", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 8px;
+    }
+}
+/* FIN INDEX MOBILE */
+@media (min-width: 768px) {
+    /* Inicia Index tablet */
+    .main__index{
+        height: 580px;
+        padding-top: 150px;
+        font-size: 0.8rem;
+    }
+    /* Fin index tablet */
+}
+@media  (min-width: 992px) {
+    /* Inicia Main-Index desktop*/
+    .main__index{
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        padding-top: 220px;
+        h1{
+            font-size: 3.8rem;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        button{
+            font-size: 1.4em;
+            padding: 5px 20px;
+            &:hover{
+                background-color:$light-gold;
+                transition: .5s;
+            }
+            a:hover{
+                color: $light;
+            }
+        }
+    }
+    /*Fin main-index*/
+    /*Inicio resumen*/
+    .section-index{
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 1fr);
+        .nosotros,
+        .areas,
+        .servicios{
+            @include cards-index-desktop;
+            button:hover{
+                background-color: #C1902D;
+                transition: .5s;
+            }
+        }
+    } 
+}
+/* Finaliza Main-index desktop*/

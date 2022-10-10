@@ -1,0 +1,49 @@
+@mixin cards-servicios-mobile {
+    padding: 15px 15px;
+    text-align: center;
+    background-color: #07061269;
+    margin: 15px 15px;
+    border-radius: 8px;
+    border: solid 1px $light-gold;
+        h3{
+            color: $light-gold;
+            font-family: Phillosopher;
+            font-weight: 700;
+        }
+}
+
+@mixin cards-servicios-desktop ($paddingtop) {
+    padding-top: $paddingtop;
+    padding-right: 200px;
+    padding-left: 200px;
+    background: none;
+    margin:auto;
+    border: none;
+}
+
+@mixin cards-index-mobile ($background) {
+        background-image: $background;
+        background-repeat: no-repeat;
+        background-size: 560px 400px;
+        background-position: center;
+        text-align: center;
+        border-radius: 8px;
+        margin: 15px;
+        padding: 40px;
+}
+
+@mixin cards-index-desktop{
+        padding: 80px 20px;
+        margin: 40px;
+            &:hover{
+                transform: scale(1.05);
+                transition: 0.1s;  
+            }
+        }
+        button{
+            padding: 3px 20px;
+            border-radius: 8px;
+            a:hover{
+                color: $light;
+            }
+}

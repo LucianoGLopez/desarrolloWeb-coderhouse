@@ -1,0 +1,22 @@
+$primary: #070612;
+$secondary: #0B223A;
+$light-gold: #C1902D;
+$dark-gold: #856015;
+$light: #faebd7;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light": $light,
+    "light-gold": $light-gold,
+    "dark-gold": $dark-gold,
+);
+
+$titles: (
+    "xs": 1rem,
+    "s": 1.5rem,
+    "m": 2.3rem,
+    "l": 2.6rem,
+    "xl": 3.2rem,
+    "xxl": 3.8rem,
+);
