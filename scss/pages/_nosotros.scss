@@ -1,7 +1,7 @@
 /* INICIA NOSOTROS MOBILE*/
 #main-nosotros{
     background: linear-gradient(0deg, rgba(7,6,18,1) 60%, rgba(11,34,58,1) 80%);
-    color:#faebd7;
+    color: $light;
     padding-top: 35px;
 }
 /* Sobre nosotros */
@@ -17,16 +17,16 @@
 }
 .nosotros__sobrenosotros,
 .nosotros__nuestroobjetivo{
-    border: solid 1px #C1902D;
+    border: solid 1px $light-gold;
     text-align: center;
     padding: 20px 0;
     margin:5px;
-    background-color: #eadbdb;
-    color:#0B223A;
+    background-color:$light;
+    color:$secondary;
     border-radius: 8px;
     img{
         border-radius: 8px;
-        box-shadow: #0B223A 0px 3px 10px;
+        box-shadow: $secondary 0px 3px 10px;
         width: 320px;
         height: 220px;
     }
@@ -47,7 +47,7 @@
     }
     h3{
         font-family: "Taviraj",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color:#C1902D;
+        color: $light-gold;
         font-weight: 600;
         padding-top: 10px;
         text-shadow: $primary 2px 1px 2px;
@@ -62,7 +62,7 @@
         display: flex;
         justify-content: space-around;
         padding-top: 15px;
-        filter: invert(94%) sepia(6%) saturate(1475%) hue-rotate(319deg) brightness(108%) contrast(96%);
+        filter: invert(97%) sepia(12%) saturate(1723%) hue-rotate(290deg) brightness(114%) contrast(83%);
     }
 }
 .nosotros__penal,
@@ -72,7 +72,7 @@
     .penal__img,
     .civil__img{
         border-style:outset;
-        border-color: #C1902D;
+        border-color: $light-gold;
         border-width: 0.5px;
         border-radius: 8px;
         width: 300px;
@@ -131,7 +131,7 @@
             font-weight: 500;
         }
         h2{
-            color:#0B223A;
+            color:$secondary;
         }
         img{
             width: 460px;
@@ -140,7 +140,7 @@
         .nosotros__sobrenosotros,
         .nosotros__nuestroobjetivo{
             padding: 20px;
-            background-color: #fff7e8;
+            background-color: $light;
             border-radius: 8px;
             margin: 20px;
         }

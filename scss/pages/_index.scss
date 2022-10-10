@@ -1,9 +1,9 @@
 /* MAIN INDEX MOBILE*/
 .main__index{
-    background-image:url(../img/grey-marble-column-details-on-building4.png);
+    background-image: url(../img/grey-marble-column-details-on-building4.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    color:#faebd7;
+    color: $light;
     width: 100vw;
     height: 400px;
     text-align: center;
@@ -77,9 +77,15 @@
         height: 580px;
         padding-top: 150px;
         font-size: 0.8rem;
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
     }
-    /* Fin index tablet */
 }
+/* Fin index tablet */
 @media  (min-width: 992px) {
     /* Inicia Main-Index desktop*/
     .main__index{

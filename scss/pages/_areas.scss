@@ -6,7 +6,7 @@
     background-image: url(../img/back-servicios.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #faebd7;
+    color: $light;
     width: 100%;
     height: 100%;
         p, li{
@@ -121,28 +121,14 @@
         }
     }
     #carousel__penal{
-        background-image: url(../img/spenal.png);
-        background-size: cover;
-        text-align: center;
-        height: 600px;
-        padding-top: 50px;
-        border-radius: 8px;
+        @include carousel-areas-desktop (url(../img/spenal.png))
     }
     #carousel__laboral{
-        background-image: url(../img/slaboral.png);
-        background-size: cover;
-        text-align: center;
-        height: 600px;
-        padding-top: 50px;
-        border-radius: 8px;
+        @include carousel-areas-desktop (url(../img/slaboral.png));
+        
     }
     #carousel__civil{
-        background-image: url(../img/scivil.png);
-        background-size: cover;
-        text-align: center;
-        height: 600px;
-        padding-top: 50px;
-        border-radius: 8px;
+        @include carousel-areas-desktop (url(../img/scivil.png));
     }
     .carousel-control-prev,
     .carousel-control-next{

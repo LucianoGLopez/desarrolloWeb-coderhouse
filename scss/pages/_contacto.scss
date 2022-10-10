@@ -1,11 +1,11 @@
 /* INICIA CONTACTO MOBILE*/
 #main-contacto{
     background: linear-gradient(0deg, rgba(7,6,18,1) 20%, rgba(11,34,58,1) 80%);
-    color: #faebd7;
+    color: $light;
     padding-bottom: 35px;
     padding-top: 35px;
         h3{
-            color: #faebd7;
+            color: $light;
             font-size: 24px;
             padding-top: 15px;
             font-family: Taviraj;
@@ -23,7 +23,7 @@
 .contacto__logos{
     padding-top: 30px;
     padding-bottom: 30px;
-    filter: invert(94%) sepia(6%) saturate(1475%) hue-rotate(319deg) brightness(108%) contrast(96%);
+    filter: invert(97%) sepia(12%) saturate(1723%) hue-rotate(290deg) brightness(114%) contrast(83%);
         a{
             padding-left: 20px;
         }
@@ -40,7 +40,7 @@
 }
 .form__contacto label, .form__contacto input, .form__contacto textarea{
     display: block;
-    background-color: #beb6b6;
+    background-color: $light;
     margin-left: 30px;
 }
 .form__contacto input, .form__contacto textarea{
