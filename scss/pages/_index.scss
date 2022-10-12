@@ -22,7 +22,7 @@
         text-shadow: $primary 2px 1px 2px;
     }
     button{
-        background-color:#0B223A;
+        background-color: $secondary;
         font-size: 0.9rem;
         font-weight: 700;
         border: none;
@@ -40,7 +40,7 @@
     background-color: $secondary;
     font-family: "Mulish",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
-    color:#f7f7f8;
+    color: $light;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -50,13 +50,13 @@
         text-shadow: $primary 2px 1px 2px;
     }
     .nosotros{
-        @include cards-index-mobile (url(../img/sobre-nosotros2.png));
+        @include cards-index-mobile (url(../img/sobre-nosotros2.webp));
     }
     .areas{
-        @include cards-index-mobile (url(../img/back-servicios.png));
+        @include cards-index-mobile (url(../img/back-servicios.webp));
     }
     .servicios{
-        @include cards-index-mobile (url(../img/back-caracteristicas.png));
+        @include cards-index-mobile (url(../img/back-caracteristicas.webp));
     }
     button{
         background-color:#0B223A;

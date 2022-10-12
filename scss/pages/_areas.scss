@@ -3,7 +3,7 @@
     display: none;
 }
 .main__areas{
-    background-image: url(../img/back-servicios.png);
+    background-image: url(../img/back-servicios.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: $light;
@@ -81,7 +81,7 @@
         height: 100%;
     }
     #areas-container{
-        background-image: url(../img/back-servicios.png);
+        background-image: url(../img/back-servicios.webp);
         background-size: cover;
         margin-top: 30px;
         padding-bottom: 30px;
@@ -121,14 +121,14 @@
         }
     }
     #carousel__penal{
-        @include carousel-areas-desktop (url(../img/spenal.png))
+        @include carousel-areas-desktop (url(../img/spenal.webp))
     }
     #carousel__laboral{
-        @include carousel-areas-desktop (url(../img/slaboral.png));
+        @include carousel-areas-desktop (url(../img/slaboral.webp));
         
     }
     #carousel__civil{
-        @include carousel-areas-desktop (url(../img/scivil.png));
+        @include carousel-areas-desktop (url(../img/scivil.webp));
     }
     .carousel-control-prev,
     .carousel-control-next{
