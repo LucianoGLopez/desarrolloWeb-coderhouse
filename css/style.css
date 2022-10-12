@@ -8819,7 +8819,7 @@ textarea.form-control-lg {
     padding-top: 50px;
     padding-left: 30px; }
   .contacto__logos {
-    filter: invert(94%) sepia(6%) saturate(1475%) hue-rotate(319deg) brightness(108%) contrast(96%); }
+    filter: invert(97%) sepia(12%) saturate(1723%) hue-rotate(290deg) brightness(114%) contrast(83%); }
     .contacto__logos a {
       padding-left: 5px; }
   .contacto__articles {
@@ -8862,7 +8862,7 @@ textarea.form-control-lg {
     .contacto__logos__fb:hover, .contacto__logos__linkedin:hover, .contacto__logos__gmail:hover, .contacto__logos__ig:hover {
       transform: scale(1.2);
       transition: 0.1s;
-      filter: invert(90%) sepia(60%) saturate(50%) hue-rotate(2deg) brightness(94%) contrast(40%); } }
+      filter: invert(10%) sepia(300%) saturate(1000%) hue-rotate(290deg) brightness(80%) contrast(23%); } }
 
 /*Finaliza Contacto desktop*/
 /* HEADER MOBILE */
