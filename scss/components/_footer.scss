@@ -25,6 +25,7 @@ footer{
 }
 .footer-map{
     grid-area: footer-map;
+    justify-self: center;
 }
 footer p{
     font-weight: 300;
@@ -33,7 +34,6 @@ footer p{
 .iframe-map{
     height: 150px;
     width: 350px;
-    padding-left: 15px;
 }
 .footer__logos{
     display: flex;

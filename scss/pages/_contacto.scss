@@ -58,6 +58,12 @@
 .form__nombre, .form__correo, .form__mensaje{
     padding-left: 20px;
 }
+.form__mensaje:focus,
+.form__nombre:focus,
+.form__correo:focus,
+.contacto__button:focus{
+    border: 2px solid #001aff;
+}
 /* FIN CONTACTO MOBILE*/
 /* INICIO CONTACTO TABLET */
 @media (min-width: 768px) {
@@ -66,11 +72,8 @@
         padding-top: 50px;
         padding-left: 30px;
     }
-    .contacto__logos{
-        filter: invert(97%) sepia(12%) saturate(1723%) hue-rotate(290deg) brightness(114%) contrast(83%);
-            a{
-                padding-left: 5px;
-            }
+        .contacto__logos a{
+            padding-left: 5px;
         }
         .contacto__articles{
             display: flex;

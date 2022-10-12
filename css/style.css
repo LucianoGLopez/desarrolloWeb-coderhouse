@@ -8811,6 +8811,12 @@ textarea.form-control-lg {
 .form__nombre, .form__correo, .form__mensaje {
   padding-left: 20px; }
 
+.form__mensaje:focus,
+.form__nombre:focus,
+.form__correo:focus,
+.contacto__button:focus {
+  border: 2px solid #001aff; }
+
 /* FIN CONTACTO MOBILE*/
 /* INICIO CONTACTO TABLET */
 @media (min-width: 768px) {
@@ -8818,10 +8824,8 @@ textarea.form-control-lg {
     background: linear-gradient(0deg, #070612 20%, #0b223a 80%);
     padding-top: 50px;
     padding-left: 30px; }
-  .contacto__logos {
-    filter: invert(97%) sepia(12%) saturate(1723%) hue-rotate(290deg) brightness(114%) contrast(83%); }
-    .contacto__logos a {
-      padding-left: 5px; }
+  .contacto__logos a {
+    padding-left: 5px; }
   .contacto__articles {
     display: flex;
     flex-direction: column;
@@ -8889,7 +8893,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   /* HEADER */
   #main__header {
-    background: #070612b4;
+    background: #070612ec;
     position: fixed;
     width: 100vw;
     display: grid;
@@ -8943,7 +8947,8 @@ textarea.form-control-lg {
       bottom: -10px;
       border-bottom: 1px solid #C1902D;
       border-left: 1px solid #C1902D;
-      transform: translate(100%, -50%); }
+      transform: translate(100%, -50%);
+      z-index: 1; }
     #main__header__nav a:hover:before,
     #main__header__nav a:hover:after {
       transform: translate(0, 0);
@@ -9022,7 +9027,8 @@ footer {
   line-height: 40px; }
 
 .footer-map {
-  grid-area: footer-map; }
+  grid-area: footer-map;
+  justify-self: center; }
 
 footer p {
   font-weight: 300;
@@ -9030,8 +9036,7 @@ footer p {
 
 .iframe-map {
   height: 150px;
-  width: 350px;
-  padding-left: 15px; }
+  width: 350px; }
 
 .footer__logos {
   display: flex;
