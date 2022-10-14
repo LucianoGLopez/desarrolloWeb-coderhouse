@@ -70,11 +70,9 @@
     background: none;
     .penal__img,
     .civil__img{
-        border-style:outset;
-        border-color: $light-gold;
-        border-width: 0.1px;
         border-radius: 8px;
         width: 300px;
+        box-shadow: $secondary 0px 3px 10px;
     }
     li{
         list-style: none;

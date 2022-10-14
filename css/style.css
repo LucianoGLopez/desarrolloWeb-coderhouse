@@ -8422,11 +8422,9 @@ textarea.form-control-lg {
   .nosotros__penal .civil__img,
   .nosotros__civil .penal__img,
   .nosotros__civil .civil__img {
-    border-style: outset;
-    border-color: #C1902D;
-    border-width: 0.1px;
     border-radius: 8px;
-    width: 300px; }
+    width: 300px;
+    box-shadow: #0B223A 0px 3px 10px; }
   .nosotros__penal li,
   .nosotros__civil li {
     list-style: none;
