@@ -83,10 +83,10 @@
                 &__nav{
                     display: grid;
                     grid-template-columns: repeat(5, 1fr);
-                    justify-content: end;
-                    gap: 0 150px;
+                    width: 100vh;
+                    gap: 130px;
+                    padding-left: 220px;
                     transition: all .3s ease;
-                    padding-left: 250px;
                         li{
                             display: inline-block;
                             list-style: outside none none;
