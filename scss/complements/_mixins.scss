@@ -35,24 +35,67 @@
 @mixin cards-index-desktop{
         padding: 80px 20px;
         margin: 40px;
-            &:hover{
-                transform: scale(1.05);
-                transition: 0.1s;  
-            }
-        }
         button{
             padding: 3px 20px;
             border-radius: 8px;
             a:hover{
                 color: $light;
             }
+        }
 }
 
 @mixin carousel-areas-desktop ($background) {
         background-image: $background;
         background-size: cover;
         text-align: center;
-        height: 600px;
+        height: 550px;
         padding-top: 50px;
         border-radius: 8px;
+}
+
+@mixin carousel-areas-mobile ($background) {
+    background-image: $background;
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+}
+
+@mixin cards-sobrenosotros ($flex-direction) {
+    display: flex;
+            flex-direction: $flex-direction;
+            justify-content: space-around;
+            padding-top: 20px;
+            &__text{
+                width: 40%;
+                text-align: start;
+            }
+            img{
+                height: 280px;
+                width: 440px;
+                align-self: flex-end;
+            }
+            h1,h2{
+                padding-left: 10px;
+            }
+}
+
+@mixin cards-sobrenosotros-tablet ($flex-direction) {
+    display: flex;
+            flex-direction: $flex-direction;
+            justify-content: space-around;
+            margin: 20px;
+            padding: 5px;
+            &__text{
+                width: 60%;
+                text-align: start;
+            }
+            img{
+                height: 240px;
+                width: 320px;
+                align-self: flex-end;
+                margin-bottom: 30px;
+            }
+            h1,h2{
+                padding-left: 15px;
+            }
 }

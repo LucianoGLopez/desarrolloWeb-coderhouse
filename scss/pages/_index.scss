@@ -24,14 +24,14 @@
     button{
         background-color: $secondary;
         font-size: 0.9rem;
-        font-weight: 700;
+        font-weight: 500;
         border: none;
         padding: 5px 10px;
-        font-family: "Taviraj", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "Mulish", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         border-radius: 8px;
         margin-bottom: 35px;
         margin-top: 10px;
-        text-shadow: $primary 2px 1px 2px;
+        color: $light;
     }
 }
 /* FIN MAIN INDEX */
@@ -66,13 +66,13 @@
         border: none;
         padding: 3px 20px;
         margin-top: 20px;
-        font-family: "Taviraj", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "Mulish", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         border-radius: 8px;
     }
 }
 /* FIN INDEX MOBILE */
+/* INICIA INDEX TABLET */
 @media (min-width: 768px) {
-    /* Inicia Index tablet */
     .main__index{
         height: 580px;
         padding-top: 150px;
@@ -85,9 +85,9 @@
         }
     }
 }
-/* Fin index tablet */
+/* FIN INDEX TABLET */
+/* INICIA INDEX DESKTOP*/
 @media  (min-width: 992px) {
-    /* Inicia Main-Index desktop*/
     .main__index{
         background-size: cover;
         height: 100vh;
@@ -128,4 +128,4 @@
         }
     } 
 }
-/* Finaliza Main-index desktop*/
+/* FIN INDEX DESKTOP*/

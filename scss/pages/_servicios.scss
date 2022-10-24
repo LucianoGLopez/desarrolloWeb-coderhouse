@@ -25,7 +25,7 @@
     @include cards-servicios-mobile;
 }
 /* FIN NUESTROS SERVICIOS */
-/* Inicia servicios tablet */
+/* INICIA SERVICIOS TABLET */
 @media (min-width: 768px) {
     #main-servicios{
         background-color: $secondary;
@@ -35,13 +35,14 @@
     }
     .cards__asesoramiento, .cards__resolucion, .cards__defensa{
         background-color: #0706128a;
+        margin: 35px;
     }
-    /* Fin servicios tablet */
 }
+// FIN SERVICIOS TABLET
+/*INICIA SERVICIOS DESKTOP*/
 @media  (min-width: 992px) {
-    /*Inicia Servicios desktop*/
     #main-servicios{
-        background-image: url(../img/back-caracteristicas.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/back-caracteristicas.webp);
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
@@ -62,4 +63,4 @@
         @include cards-servicios-desktop(0);
     }
 }
-/*Finaliza Servicios desktop*/
+/*FIN SERVICIOS DESKTOP*/

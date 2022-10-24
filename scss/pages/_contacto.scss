@@ -68,7 +68,7 @@
 /* INICIO CONTACTO TABLET */
 @media (min-width: 768px) {
     #main-contacto{
-        background: linear-gradient(0deg, rgba(7,6,18,1) 20%, rgba(11,34,58,1) 80%);
+        background: linear-gradient(180deg, rgba(7,6,18,1) 20%, rgba(11,34,58,1) 150%);
         padding-top: 50px;
         padding-left: 30px;
     }
@@ -80,7 +80,6 @@
             flex-direction: column;
             justify-content: space-around;
         }
-        
         .contacto__formulario{
             width: 650px;
             height: 450px;
@@ -107,7 +106,6 @@
     }
     .contacto__formulario{
         height: 430px;
-        margin: 0;
     }
     .contacto__articles{
         display: flex;
@@ -115,7 +113,7 @@
     }
     .contacto__info{
         line-height: 20px;
-        padding-top: 50px;
+        padding-top: 35px;
     }
     .contacto__mapmarker{
         margin-right: 5px;

@@ -33,13 +33,31 @@ h2{
     color:#C1902D;
     font-weight: 600;
 }
-h3{font-size: 1.8em;}
-h4{font-size: 1.2em;}
-
+h3{
+    font-size: 1.8em;
+}
+h4{
+    font-size: 1.2em;
+}
 p{ 
     font-size: 16px;
     font-family: "Mulish";
     font-weight: 300;
+}
+
+.wsp__fixed{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    img{
+        border-radius: 100px;
+    }
+}
+@media (min-width: 992px) {
+    .wsp__fixed{
+        right: 50px;
+    }
 }
 
 @font-face {
@@ -96,15 +114,5 @@ p{
     src: url("../fonts/Mulish-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700; 
-}
-
-.wsp__fixed{
-    position:fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.wsp__fixed img{
-    border-radius: 100px;
 }
 /*Finaliza estilos generales*/

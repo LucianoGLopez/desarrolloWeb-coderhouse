@@ -1,7 +1,42 @@
 /* INICIA AREAS MOBILE*/
-#carouselExampleIndicators{
-    display: none;
+.carousel-inner{
+    button{
+        background-color: $light-gold;
+        color: $light;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border: none;
+        padding: 5px 24px;
+        border-radius: 8px;
+        text-shadow: $primary 2px 1px 2px;
+    }
+    h3{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-weight: 700;
+        font-size: 2.3rem;
+        text-shadow: $primary 4px 1px 2px;
+    }
+    img{
+        padding-top: 50px;
+        width: 30px;
+    }
 }
+#carousel__penal{
+    @include carousel-areas-mobile (url(../img/spenal.webp))
+}
+#carousel__laboral{
+    @include carousel-areas-mobile (url(../img/slaboral.webp));
+}
+#carousel__civil{
+    @include carousel-areas-mobile (url(../img/scivil.webp));
+}
+.carousel-control-prev,
+.carousel-control-next{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+// Inicia areas
 .main__areas{
     background-image: url(../img/back-servicios.webp);
     background-repeat: no-repeat;
@@ -50,6 +85,20 @@
 /* FIN AREAS MOBILE*/
 /* INICIA AREAS TABLET */
 @media (min-width: 768px) {
+    #carousel__penal,
+    #carousel__civil,
+    #carousel__laboral{
+        height: 500px;
+    }
+    .carousel-inner{
+        img{
+            padding-top: 150px;
+            width: 50px;
+        }
+        h3{
+            font-size: 3.5rem;
+        }
+    }
     .text__areas{
         padding-top: 60px;
         padding-left: 50px;
@@ -90,19 +139,12 @@
         padding-bottom: 100px;
     }
     #carouselExampleIndicators{
-        padding: 140px 200px 5px 140px;
+        padding: 150px 200px 5px 140px;
         display: block;
     }
     .carousel-inner{
         padding-left: 50px;
         button{
-            background-color: $light-gold;
-            font-size: 1.2rem;
-            font-weight: 400;
-            border: none;
-            padding: 5px 24px;
-            border-radius: 8px;
-            text-shadow: $primary 2px 1px 2px;
                 &:hover{
                     background-color: $secondary;
                     transition: .2s;
@@ -112,12 +154,7 @@
                 }
         }
         h3{
-            padding-top: 15px;
-            padding-bottom: 5px;
-            font-weight: 700;
-            font-size: 3rem;
             color: $light;
-            text-shadow: $primary 4px 1px 2px;
         }
         img{
             padding-top: 50px;
@@ -133,28 +170,6 @@
     #carousel__civil{
         @include carousel-areas-desktop (url(../img/scivil.webp));
     }
-    .carousel-control-prev,
-    .carousel-control-next{
-        margin-top: 200px;
-        margin-bottom: 150px;
-    }
-    .cards__areas{
-        text-align: center;
-        list-style: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        padding-top: 50px;
-            &__penal,
-            &__laboral,
-            &__civil{
-                background: rgba(6, 17, 30, 0.651);
-                padding: 20px 20px;
-                height: 380px;
-                width: 320px;
-                border-radius: 8px;
-            }
-    }
     .cards{
         img{
             width: 30px;
@@ -163,7 +178,24 @@
         h3{
             padding: 10px 0 10px;
         }
-    } 
+            &__areas{
+                text-align: center;
+                list-style: none;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                justify-items: center;
+                padding-top: 50px;
+                    &__penal,
+                    &__laboral,
+                    &__civil{
+                        background: rgba(6, 17, 30, 0.651);
+                        padding: 20px 20px;
+                        height: 380px;
+                        width: 320px;
+                        border-radius: 8px;
+                    }
+            } 
+    }
     .text__areas{
         h2{
             padding-left: 120px;
