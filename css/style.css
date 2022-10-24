@@ -8798,7 +8798,8 @@ textarea.form-control-lg {
   padding: 20px;
   text-align: center;
   border-radius: 8px;
-  border: solid 1px #C1902D; }
+  border: solid 1px #C1902D;
+  align-self: center; }
 
 .cards__asesoramiento,
 .cards__resolucion,
@@ -8843,8 +8844,10 @@ textarea.form-control-lg {
   .text__servicios {
     background-color: rgba(246, 216, 97, 0.075);
     color: #eadbdb;
-    margin: 190px 0 220px 100px;
+    margin: 250px 0 220px 100px;
     padding: 20px; }
+    .text__servicios p {
+      text-align: start; }
   .cards__asesoramiento {
     padding-top: 140px;
     padding-right: 200px;
@@ -8852,6 +8855,8 @@ textarea.form-control-lg {
     background: none;
     margin: auto;
     border: none; }
+    .cards__asesoramiento p {
+      text-align: start; }
   .cards__resolucion,
   .cards__defensa {
     padding-top: 0;
@@ -8859,7 +8864,10 @@ textarea.form-control-lg {
     padding-left: 200px;
     background: none;
     margin: auto;
-    border: none; } }
+    border: none; }
+    .cards__resolucion p,
+    .cards__defensa p {
+      text-align: start; } }
 
 /*FIN SERVICIOS DESKTOP*/
 /* INICIA CONTACTO MOBILE*/
@@ -9149,9 +9157,8 @@ footer {
   display: flex;
   flex-direction: column;
   grid-area: footer__logos;
-  justify-content: center;
-  padding-left: 10px;
-  gap: 5px;
+  padding-left: 35px;
+  gap: 10px;
   padding-bottom: 30px; }
 
 /* INICIA FOOTER TABLET */

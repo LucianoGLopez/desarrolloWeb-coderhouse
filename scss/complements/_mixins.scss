@@ -19,6 +19,9 @@
     background: none;
     margin:auto;
     border: none;
+    p{
+        text-align: start;
+    }
 }
 
 @mixin cards-index-mobile ($background) {
