@@ -11,14 +11,16 @@
     }
 }
 .text__servicios{
-    background-color: $light;
-    color: $primary;
-    margin: 35px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/back-caracteristicas.webp);
+    background-position: center;
+    background-size: cover;
+    color: $light;
     padding: 20px;
     text-align: center;
-    border-radius: 8px;
-    border: solid 1px $light-gold;
     align-self: center;
+    p{
+        text-align: start;
+    };
 }
 .cards__asesoramiento, 
 .cards__resolucion, 
@@ -32,10 +34,10 @@
         background-color: $secondary;
     }
     .text__servicios{
-        margin-top: 50px;
+        padding: 20px;
     }
     .cards__asesoramiento, .cards__resolucion, .cards__defensa{
-        background-color: #0706128a;
+        background-color: $primary;
         margin: 35px;
     }
 }
@@ -51,7 +53,8 @@
         height: 120vh;
     }
     .text__servicios{
-        background-color: rgba(246, 216, 97, 0.075);
+        background-color: #070612ec;
+        background-image: none;
         color:#eadbdb;
         margin: 250px 0 220px 100px;
         padding: 20px;
