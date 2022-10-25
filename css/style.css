@@ -8255,7 +8255,7 @@ textarea.form-control-lg {
     color: #C1902D;
     text-shadow: #070612 2px 1px 2px; }
   .section-index .nosotros {
-    background-image: url(../img/sobre-nosotros2.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sobre-nosotros2.webp);
     background-repeat: no-repeat;
     background-size: 560px 400px;
     background-position: center;
@@ -8264,7 +8264,7 @@ textarea.form-control-lg {
     margin: 15px;
     padding: 40px; }
   .section-index .areas {
-    background-image: url(../img/back-servicios.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/back-servicios.webp);
     background-repeat: no-repeat;
     background-size: 560px 400px;
     background-position: center;
@@ -8273,7 +8273,7 @@ textarea.form-control-lg {
     margin: 15px;
     padding: 40px; }
   .section-index .servicios {
-    background-image: url(../img/back-caracteristicas.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/back-caracteristicas.webp);
     background-repeat: no-repeat;
     background-size: 560px 400px;
     background-position: center;

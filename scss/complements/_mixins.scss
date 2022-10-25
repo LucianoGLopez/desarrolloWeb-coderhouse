@@ -25,7 +25,7 @@
 }
 
 @mixin cards-index-mobile ($background) {
-        background-image: $background;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), $background;
         background-repeat: no-repeat;
         background-size: 560px 400px;
         background-position: center;
