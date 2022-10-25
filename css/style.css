@@ -8774,9 +8774,9 @@ textarea.form-control-lg {
       width: 320px;
       border-radius: 8px; }
   .text__areas h2, .text__areas .h2 {
-    padding-left: 120px; }
+    padding-left: 80px; }
   .text__areas p {
-    padding-left: 120px;
+    padding-left: 80px;
     margin-right: 700px; } }
 
 /*Finaliza areas desktop*/
@@ -8843,11 +8843,13 @@ textarea.form-control-lg {
     grid-template-columns: 3fr 5fr;
     height: 120vh; }
   .text__servicios {
-    background-color: #070612ec;
+    background-color: #0706129a;
     background-image: none;
     color: #eadbdb;
     margin: 250px 0 220px 100px;
-    padding: 20px; }
+    padding: 20px;
+    border: solid 1px #c8b013b4;
+    border-radius: 8px; }
     .text__servicios p {
       text-align: start; }
   .cards__asesoramiento {
